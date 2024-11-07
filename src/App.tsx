@@ -1,3 +1,4 @@
+// @ts-ignore
 import React from 'react';
 import { SolarCalculator } from './components/SolarCalculator';
 import { SolarExample } from './components/SolarExample';
