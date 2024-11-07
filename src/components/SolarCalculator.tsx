@@ -37,6 +37,11 @@ export const SolarCalculator: React.FC = () => {
               onChange={(e) => setSolarVoltage(Number(e.target.value))}
               className="mt-1 block w-full rounded bg-gray-700 border-gray-600 text-white px-3 py-2"
             />
+            <div className="mt-1 text-sm text-blue-400">
+              <span className="font-mono">
+                I = {((solarPower / solarVoltage) * 1000).toFixed(0)}mA
+              </span>
+            </div>
           </div>
           <div>
             <label className="block text-sm font-medium text-gray-300">Solar Panel Power (W)</label>
@@ -46,6 +51,11 @@ export const SolarCalculator: React.FC = () => {
               onChange={(e) => setSolarPower(Number(e.target.value))}
               className="mt-1 block w-full rounded bg-gray-700 border-gray-600 text-white px-3 py-2"
             />
+            <div className="mt-1 text-sm text-blue-400">
+              <span className="font-mono">
+                I = {chargingCurrent.toFixed(0)}mA
+              </span>
+            </div>
           </div>
           <div>
             <label className="block text-sm font-medium text-gray-300">Single Battery Capacity (mAh)</label>
