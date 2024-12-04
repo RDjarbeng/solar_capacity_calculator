@@ -1,6 +1,8 @@
 # Solar Panel Calculator
 
 An interactive calculator for solar panel charging calculations, built with React and TailwindCSS.
+![image](https://github.com/user-attachments/assets/9294a317-200e-4749-84e7-8e6e2b0ad51b)
+
 
 ## Features
 
